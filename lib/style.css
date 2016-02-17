@@ -1,0 +1,258 @@
+body{
+	background-color: white;
+	font-family: verdana;
+
+}
+
+/*-------------------------------------------------*/
+
+/* TÜM İÇERİĞİ KAPSAYAN KONTEYNER       */
+#container {
+	background-color: red ;
+	width: 950px;
+	height : 800px ;
+	margin: 0 auto;
+	z-index: 50;
+	/*
+	position: relative;
+	top: 10px;
+	*/
+}
+/*-------------------------------------------------*/
+
+/* ANA MENÜ BÖLÜMÜ HER SAYFANIN ÜSTÜNDE       */
+#navbar {
+
+	height: 50px;
+	background-color: #00ffff;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	position: relative;
+	top: 6px;
+	text-align: left;
+}
+/*ust menu*/
+.menu{
+	text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0px;
+  margin-top: 10px;
+  list-style: none;
+}
+ul.menu ul {
+  position: absolute;
+  list-style: none;
+  display: none;
+  min-width: 190px; /*yazinin sigmasi icin */
+  margin-top: 3px;
+  left: -1px;
+}
+ul.menu > li {
+  float: left;
+  position: relative;
+  display: block;
+  padding: 3px 10px 3px 20px;
+}
+ul.menu li:hover a{
+    color: #3333ff;
+}
+ul.menu ul li {
+  margin: 1px;
+  text-align: left;
+  padding: 3px 20px;
+}
+ul.menu li ul li a {
+	font-size: 1em;
+}
+ul.menu li > ul {
+  background-color: #f9f9f9;
+  display: none;
+  opacity: 0.9;
+}
+ul.menu li:hover > ul{
+  position: absolute;
+  display: block;
+  padding: 0px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,10);
+  z-index: 1000;
+}
+ul.menu li > ul li:hover a{
+  color: red;
+}
+
+ul.menu a{
+  font-size: 1.2em;
+  font-family: verdana;
+  text-decoration: none;
+  color: black;
+}
+/*-------------------------------------------------*/
+
+/*  Slider image */
+#slide{
+  height: 200px;
+  position: relative;
+  margin-top: 30px;
+}
+#slide li{
+	decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*image reset*/
+.bx-viewport img{
+	float: left;
+	align-content:center;
+}
+.bx-wrapper{
+	float: left ;
+	padding : 6px;
+	position : relative ;
+	width: 500px ;
+	height: 500px ;
+}
+/*-------------------------------------------------*/
+
+
+/* FOOTER BÖLÜMÜ       */
+.footer {
+
+	height: 35px;
+	position: relative;
+	background-color: #00ffff;
+	top: 500px;
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+	text-align: center;
+}
+.list{
+
+	text-decoration: none;
+	color: black;
+}
+li.altiletisim {
+	list-style: none;
+	text-align: center;
+	position: relative;
+	float: bottom;
+	margin: 10px;
+	padding-top: 10px;
+	display: inline;
+	font-size: 0.8em;
+}
+.menu li img {
+	width: 180px;
+}
+
+table.etkinlik{
+	background-color : white ;
+	border : solid blue 1px;
+	position: relative;
+	width : 750px;
+	top : 20px;
+}
+table.etkinlik tr{
+	border : solid black 1px ;
+	vertical-align : top ;
+	position: relative;
+	width : 750px;
+	height : 200px;
+}
+table.etkinlik td{
+	border : solid black 1px ;
+	text-align : top;
+	position: relative;
+	width : 350px;
+	height : 200px;
+}
+/*-------------------------------------------------*/
+
+
+/* HAKKIMIZDAKİ SAYFALARIN FOOTER BÖLÜMÜ       */
+.textfooter {
+	width: 750px;
+	height: 35px;
+	position: relative;
+	background-color: #00ffff;
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+	text-align: center;
+}
+/*-------------------------------------------------*/
+
+/* İLETİŞİM BÖLÜMÜNDEKİ KISIMLAR       */
+#iletisimbilgi {
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+	background-color: #00ffff;
+	width: 360px;
+	margin-top: 20px;
+	padding-left: 10px;
+	height: 17em;
+	padding-top: 10px;
+}
+.kucuk {
+	font-size: 0.8em;
+}
+#form {
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+	background-color: #00ffff;
+	width: 360px;
+	margin-top: -282px;
+	padding-left: 10px;
+	height: 17em;
+	position: relative;
+	float: right;
+	padding-top: 10px;
+}
+#form form table tr td {
+	padding: 3px;
+}
+/*-------------------------------------------------*/
+
+/* HAKKIMIZDA SAYFASINDAKİ BÖLÜMLER       */
+#manifestotext {
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.4);
+	background-color: #00ffff;
+	width: 710px;
+	position: relative;
+	margin-top: 20px;
+	padding: 20px;
+	font-size: 0.8em;
+	text-align: justify;
+}
+#manifestotext b {
+	left: 20em;
+	position: relative;
+}
+#manifestotext ul li {
+	padding-top: 4px;
+}
+
+#kurucular {
+	margin-top: 20px;
+	background-color: #00ffff;
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.3);
+	padding: 20px;
+	width: 750px;
+}
+#kurucular tr td {
+	font-size: 0.9em;
+	padding-left: 15px;
+}
+#yonetimkurulu {
+	margin-top: 20px;
+	background-color: #00ffff;
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.3);
+	padding: 10px;
+	width: 710px;
+}
+#yonetimkurulu table tr td {
+	font-size: 0.9em;
+}
+/*-------------------------------------------------*/
+
+/* LOGOYU BOYUTLANDIRMAK       */
+#platlogo {
+	height: 35px;
+	width: 120px;
+
+}
