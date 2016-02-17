@@ -1,7 +1,7 @@
 /* Website template by freewebsitetemplates.com */
 body {
 	background: url(../images/bg-body.jpg) repeat;
-	color: #356618;
+	color: #185a66;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	margin: 0;
@@ -19,13 +19,13 @@ p {
 	text-align: justify;
 }
 p a {
-	color: #356618;
+	color: #185a66;
 }
 p a:hover {
-	color: #66a143;
+	color: #439ea1;
 }
 #page {
-	background: #356618;
+	background: #185a66;
 	margin: 0 auto;
 	padding: 0 20px;
 	width: 900px;
@@ -69,12 +69,12 @@ p a:hover {
 #header > ul > li.current > a:hover,
 #header ul li ul li.current a,
 #header ul li ul li.current a:hover {
-	background: #96b285;
-	color: #356618;
+	background: #85aeb3;
+	color: #185a66;
 }
 #header ul li a:hover {
 	background: #daead0;
-	color: #1b330c;
+	color: #0c3133;
 }
 #header ul li ul {
 	list-style: none;
@@ -140,7 +140,7 @@ p a:hover {
 	text-transform: uppercase;
 }
 #body div.header div div h1 a {
-	color: #e3e699;
+	color: #185a66;
 	text-decoration: none;
 }
 #body div.header div div h1 a:hover {
@@ -163,8 +163,11 @@ p a:hover {
 #body div.header div div p a.continue:hover {
 	background: url(../images/interface.png) no-repeat -400px -20px;
 }
+#body div.header {
+
+}
 #body div.header ul {
-	background: #356618;
+	background: #185a66;
 	list-style: none;
 	margin: 0;
 	overflow: hidden;
@@ -191,7 +194,7 @@ p a:hover {
 	margin: 0 20px 0;
 }
 #body div.header ul li.current h3 a {
-	color: #e3e699;
+	color: #185a66;
 }
 #body div.header ul li h3 {
 	font-size: 16px;
@@ -214,13 +217,35 @@ p a:hover {
 	line-height: 18px;
 	text-align: left;
 }
+/*  Slider image */
+#slide{
+  height: 200px;
+  position: relative;
+  margin-top: 30px;
+}
+#slide li{
+	decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+/*image reset*/
+.bx-viewport img{
+	float: left;
+}
+.bx-wrapper{
+	float: left ;
+	padding : 6px;
+	position : relative ;
+	width: 50px ;
+	height: 50px ;
+}
 #body div.body {
 	padding: 23px 20px 0;
 }
 #body div.body h1,
 #body div.footer div h1 {
-	background: #dce9d4;
-	border-bottom: 2px solid #b3cca4;
+	background: #d4e2e9;
+	border-bottom: 2px solid #a4cacc;
 	color: #836145;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 18px;
@@ -291,7 +316,7 @@ p a:hover {
 	line-height: 24px;
 }
 #body div#content {
-	border-top: 1px solid #5d8546;
+	border-top: 1px solid #467f85;
 	overflow: hidden;
 	padding: 35px 20px;
 }
@@ -426,7 +451,7 @@ p a:hover {
 	background: url(../images/interface.png) no-repeat -331px -81px;
 }
 #body div#content div#article {
-	border-right: 1px solid #96b285;
+	border-right: 1px solid #85adb3;
 	float: left;
 	padding: 0 20px 0 0;
 	width: 580px;
@@ -459,7 +484,7 @@ p a:hover {
 	text-transform: uppercase;
 }
 #body div#content div#sidebar div {
-	border-top: 1px solid #96b285;
+	border-top: 1px solid #85aeb3;
 	padding: 20px 0;
 }
 #body div#content div#sidebar div:first-child {
@@ -482,7 +507,7 @@ p a:hover {
 	text-decoration: none;
 }
 #body div#content div#sidebar div ul li a:hover {
-	color: #4b4b4f;
+	color: #4b4f4f;
 }
 #body div#content div#sidebar div:first-child ul li {
 	letter-spacing: 0.024em;
@@ -494,15 +519,15 @@ p a:hover {
 	padding: 0;
 }
 #footer {
-	background: #dce9d4;
-	border-top: 1px solid #b8d0aa;
+	background: #d4e1e9;
+	border-top: 1px solid #a9ced0;
 }
 #footer div {
 	height: 174px;
 	overflow: hidden;
 }
 #footer div div {
-	border-left: 1px solid #b8d0aa;
+	border-left: 1px solid #a9c9d0;
 	float: left;
 	height: 134px;
 	padding: 20px 20px;
@@ -579,5 +604,5 @@ p a:hover {
 	height: 37px;
 	line-height: 37px;
 	text-align: center;
-	text-shadow: 1px 1px 1px #8da181;
+	text-shadow: 1px 1px 1px #819fa1;
 }
